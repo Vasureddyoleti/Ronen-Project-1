@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.navbar-nav,
+.mr-auto {
+    flex: 1;
+    margin: auto !important;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-container-list {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.top-container-link {
+    text-decoration: none !important;
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+.icon {
+    color: white;
+    padding: 5px;
+}
+
+.top-container-link:hover {
+    background-color: #e9ecef;
+    color: #495057;
+}
+
+
+.top-container-social {
+    list-style-type: none;
+    padding-left: 0px;
+    padding-top: 10px;
+}
+
+.social-link {
+    color: #495057;
+    font-size: 20px;
+    position: relative;
+}
+
+.social-link a {
+    display: flex;
+    align-items: center;
+    width: auto;
+    overflow: hidden;
+    text-decoration: none !important;
+    padding: 8px;
+    border-right: 1px solid #ffffff;
+    height: 40px;
+}
+
+
+
+.span-text {
+    max-width: 0;
+    display: none;
+    font-weight: 700;
+}
+
+.social-link:hover .span-text {
+    display: block;
+    padding-left: 0px;
+    max-width: 250px;
+    font-size: 18px;
+}
+
+.social-link:hover .social-icon i {
+    color: #ffffff !important;
+
+}
+
+.facebook-icon:hover {
+    background-color: #3b5998;
+    color: #ffffff;
+}
+
+.twitter-icon:hover {
+    background-color: #14171A;
+    color: #ffffff;
+}
+
+.youtube-icon:hover {
+    background-color: #c4302b;
+    color: #ffffff;
+}
+
+.insta-icon:hover {
+    background-color: #fa7e1e;
+    color: #ffffff;
+}
+
+
+.nav-link {
+    color: #495057 !important;
+    font-weight: 600;
+}
+
+.nav-link-active {
+    color: orange !important;
+}
+
+.nav-link:hover {
+    color: orange !important;
+}
+
+.gs-button {
+    background-color: orange !important;
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+.gs-button:hover {
+    color: #ffffff !important;
+    background-color: black !important;
+}
+
+
+.services-container {
+    background-image: linear-gradient(to right, black, #495057, orange);
+    padding: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-text {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 8px;
+    border-radius: 25px;
+    width: 100px;
+    text-align: center;
+}
+
+.services-heading {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.services-desc {
+    color: #ffffff;
+}
+
+.service-image {
+    height: 150px;
+    width: 266px;
+}
+
+.service-item-card {
+    border: 2px solid #dee2e6;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 10px;
+    width: 360px;
+    height: 601px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.service-item-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-item-heading {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.service-item-desc {
+    font-size: 15px;
+    color: #6c757d;
+}
+
+.icon-check {
+    color: orange;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+.heading-bottom {
+    color: orange;
+    font-family: 'Sans-Serif';
+    font-weight: 800;
+    animation: changecolor infinite 15s;
+}
+
+@keyframes changecolor {
+    0% {
+        color: orange;
+    }
+
+    25% {
+        color: green;
+    }
+
+    50% {
+        color: black;
+    }
+
+    75% {
+        color: blue;
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+.footer-link-list li a {
+
+    text-decoration: none !important;
+    color: black;
+    font-weight: 600;
+
+}
+
+.footer-link-list li a:hover {
+
+    color: orange;
+
+}
+
+.footer-contact a {
+    padding: 8px;
+    margin: 2px;
+    text-decoration: none !important;
+    color: black;
+    font-weight: 600;
+    border-radius: 5px;
+
+}
+
+
+.footer-contact a:hover {
+    background-color: orange;
+    color: white;
+}
+
+.icon-plane {
+    padding: 4.5px;
+    border: 1px solid black;
+}
+
+.bottom-footer-container {
+    background-image: url("https://canvastemplate.com/demos/seo/images/hero/footer.svg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    font-size: 15px;
+    padding: 40px;
+}
+
+.bottom-footer-container a {
+    color: #495057;
+    text-decoration: none !important;
+
+}

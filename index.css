@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.navbar-nav,
+.mr-auto {
+    flex: 1;
+    margin: auto !important;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-container-list {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.top-container-link {
+    text-decoration: none !important;
+    padding: 10px;
+    color: #495057;
+    font-weight: 600;
+}
+
+/* .top-container-link-flag a {
+    text-decoration: none !important;
+    padding: 10px;
+    color: #495057;
+    font-weight: 600;
+} */
+
+.icon {
+    color: #495057;
+    padding: 5px;
+}
+
+.top-container-link:hover {
+    background-color: #e9ecef;
+    color: #495057;
+}
+
+/* .top-container-link-flag {
+    text-decoration: none !important;
+    color: #495057;
+    font-weight: 600;
+    position: relative;
+}
+
+.language-dropdown {
+    list-style-type: none;
+    padding-left: 0px;
+    background-color: #e9ecef;
+    color: #495057;
+    position: absolute;
+    visibility: hidden;
+    border-top: 1px solid orange;
+    margin-top: 1px;
+}
+
+.language-dropdown .top-container-link-flag a:hover {
+    margin-bottom: 2px;
+    background-color: #ffffff;
+}
+
+.top-container-link-flag:hover {
+    background-color: #e9ecef;
+    color: #495057;
+} */
+
+/* .top-container-link-flag:hover ul {
+    visibility: visible;
+} */
+
+.top-container-social {
+    list-style-type: none;
+    padding-left: 0px;
+    padding-top: 10px;
+}
+
+.social-link {
+    color: #495057;
+    font-size: 20px;
+    position: relative;
+}
+
+.social-link a {
+    display: flex;
+    align-items: center;
+    width: auto;
+    overflow: hidden;
+    text-decoration: none !important;
+    padding: 8px;
+    border-right: 1px solid black;
+    height: 40px;
+}
+
+
+
+.span-text {
+    max-width: 0;
+    display: none;
+    font-weight: 700;
+}
+
+.social-link:hover .span-text {
+    display: block;
+    padding-left: 0px;
+    max-width: 250px;
+    font-size: 18px;
+}
+
+.social-link:hover .social-icon i {
+    color: #ffffff !important;
+
+}
+
+.facebook-icon:hover {
+    background-color: #3b5998;
+    color: #ffffff;
+}
+
+.twitter-icon:hover {
+    background-color: #14171A;
+    color: #ffffff;
+}
+
+.youtube-icon:hover {
+    background-color: #c4302b;
+    color: #ffffff;
+}
+
+.insta-icon:hover {
+    background-color: #fa7e1e;
+    color: #ffffff;
+}
+
+.bg-container {
+    background-image: url("https://www.sungoldcovering.com/demos/seo/images/hero/hero-1.jpg");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* .dd-container {
+    overflow: auto;
+}
+
+.dd-container a {
+    text-decoration: none !important;
+}
+
+.services-dd-card {
+    width: 280px;
+    padding: 10px;
+    margin: 5px;
+    color: #495057;
+}
+
+.services-dd-card:hover {
+    background-color: #f8f9fa;
+} */
+
+.nav-link {
+    color: #495057 !important;
+    font-weight: 600;
+}
+
+.nav-link-active {
+    color: orange !important;
+}
+
+.nav-link:hover {
+    color: orange !important;
+}
+
+.seo-ready {
+    border: 1px solid orange;
+    border-radius: 20px;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    color: orange;
+}
+
+.bg-heading {
+    color: orange;
+    font-weight: 600;
+}
+
+
+.bg-paragraph {
+    color: #cbcbcb;
+}
+
+.text-animate::before {
+    content: "Awesome";
+    color: orange;
+    font-weight: 600;
+    margin-left: 5px;
+    animation: textchange infinite 6s;
+}
+
+@keyframes textchange {
+    0% {
+        content: "Awesome";
+    }
+
+    50% {
+        content: 'Great';
+    }
+
+    75% {
+        content: 'Beautiful';
+    }
+}
+
+.bg-para {
+    color: #495057;
+
+}
+
+.gs-button {
+    background-color: orange !important;
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+.gs-button:hover {
+    color: #ffffff !important;
+    background-color: black !important;
+}
+
+.bg-text-container {
+    margin-top: 50px;
+    padding: 25px 25px 100px 25px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width:767px) {
+    .bg-text-container {
+        width: 400px;
+    }
+
+    .bg-heading {
+        font-size: 23px;
+    }
+
+    .seo-ready {
+        border: 1px solid orange;
+        border-radius: 20px;
+        padding: 5px;
+        width: 70px;
+        font-size: 11px;
+        font-weight: 600;
+        text-align: center;
+        color: orange;
+    }
+}
+
+.imgscont {
+    overflow: auto;
+}
+
+.middle-container {
+    background-image: url("https://canvastemplate.com/demos/seo/images/sections/4.png");
+    height: 140%;
+    background-size: cover;
+    padding-bottom: 15px;
+
+}
+
+
+.price-text {
+    color: orange;
+    border: 1px solid orange;
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 5px;
+    width: 120px;
+    text-align: center;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: orange;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    border-radius: 2px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: orange;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.cycle {
+    font-weight: 700;
+}
+
+.cycle-false {
+    color: #495057;
+    font-weight: 600;
+}
+
+
+
+.save-20 {
+    color: orange;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.arrow-icon {
+    font-size: 30px;
+    color: orange;
+}
+
+.yr-mnth-container {
+    position: relative;
+}
+
+.save-20-container {
+    position: absolute;
+    top: -150%;
+    right: 2%;
+}
+
+@media screen and (max-width:767px) {
+    .save-20-container {
+        position: absolute;
+        top: -150%;
+        right: 0;
+    }
+
+    .middle-container {
+        height: 90%;
+        padding-top: 10px !important;
+        padding-bottom: 15px !important;
+    }
+
+}
+
+.check-icon {
+    color: orange;
+}
+
+.check-span-text {
+    color: #495057;
+    font-weight: 700;
+}
+
+.price-num {
+    font-size: 50px;
+    font-weight: 700;
+    color: #495057;
+}
+
+.xmark-text {
+    font-weight: 100;
+    text-decoration: line-through;
+}
+
+.plan-card {
+    background-color: #ffffff;
+    border: 0.2px solid #495057;
+}
+
+.form-container {
+    background-image: url("https://canvastemplate.com/demos/seo/images/sections/1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 25px;
+    padding-top: 50px;
+}
+
+form {
+    border: 1px solid #cbcbcb;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+label {
+    font-weight: 600;
+    color: #495057;
+}
+
+.play-box {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.latest-works-container {
+    background-image: url("https://canvastemplate.com/demos/seo/images/sections/5.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.work-image {
+    height: 239px;
+    width: 359px;
+}
+
+.work-heading {
+    color: #212529;
+}
+
+.work-desc {
+    color: #6c757d;
+}
+
+@media screen and (max-width:767px) {
+    .work-image {
+        height: 219px;
+        width: 309px;
+    }
+
+    .work-heading {
+        font-size: 18px;
+        color: #212529;
+    }
+
+    .work-desc {
+        font-size: 14px;
+        color: #6c757d;
+    }
+
+}
+
+.card-item {
+    width: 100%;
+}
+
+
+.heading-bottom {
+    color: orange;
+    font-family: 'Sans-Serif';
+    font-weight: 800;
+    animation: changecolor infinite 15s;
+}
+
+@keyframes changecolor {
+    0% {
+        color: orange;
+    }
+
+    25% {
+        color: green;
+    }
+
+    50% {
+        color: black;
+    }
+
+    75% {
+        color: blue;
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+.footer-link-list li a {
+
+    text-decoration: none !important;
+    color: black;
+    font-weight: 600;
+
+}
+
+.footer-link-list li a:hover {
+
+    color: orange;
+
+}
+
+.footer-contact a {
+    padding: 8px;
+    margin: 2px;
+    text-decoration: none !important;
+    color: black;
+    font-weight: 600;
+    border-radius: 5px;
+
+}
+
+
+.footer-contact a:hover {
+    background-color: orange;
+    color: white;
+}
+
+.icon-plane {
+    padding: 4.5px;
+    border: 1px solid black;
+}
+
+.bottom-footer-container {
+    background-image: url("https://canvastemplate.com/demos/seo/images/hero/footer.svg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    font-size: 15px;
+    padding: 40px;
+}
+
+.bottom-footer-container a {
+    color: #495057;
+    text-decoration: none !important;
+
+}
